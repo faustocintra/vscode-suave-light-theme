@@ -1,0 +1,25 @@
+{
+  "name": "suave-light-theme",
+  "displayName": "Suave Light Theme",
+  "description": "An eye-friendly light theme for Visual Studio Code",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/faustocintra/vscode-suave-light-theme.git"
+	},
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Suave Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/suave-light-color-theme.json"
+      }
+    ]
+  }
+}
